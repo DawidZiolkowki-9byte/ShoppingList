@@ -39,3 +39,7 @@ Bootstrap install with
 
 npm install --save bootstrap
 and add node_modules/bootstrap/dist/css/bootstrap.min.css path to andgular.json file in styles[]
+
+# Components
+ng g c name-of-component --spec false 
+--spec false when you dont need a spec flie (for tests)
