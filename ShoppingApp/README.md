@@ -30,16 +30,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # ShoppingList
 Shopping list app in Angular 8 framework using Bootstrap
 
-# Init
+## Init
 New project create with (only if Angular is installed (globally or locally))
 
-ng new app-name
+`ng new app-name`
 
-Bootstrap install with
+##Bootstrap install with
 
-npm install --save bootstrap
-and add node_modules/bootstrap/dist/css/bootstrap.min.css path to andgular.json file in styles[]
+`npm install --save bootstrap`
+and add `node_modules/bootstrap/dist/css/bootstrap.min.css` path to `angular.json` file in `styles[]`
 
-# Components
-ng g c name-of-component --spec false 
+## Components
+
+`ng g c name-of-component --spec false `
 --spec false when you dont need a spec flie (for tests)
